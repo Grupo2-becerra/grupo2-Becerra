@@ -1,17 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
-    <div class="container">
-        <div class="menu__top"></div>
-        <div class="slider"></div>
-        <div class="cont__imgs"></div>
+    <div class="home__container">
+        
+        <div class="home__menu__top">
+            <div class="home__menu__top__cont__img">
+                <img class="home__img__user" src="/img/perfil.png" alt="">
+            </div>
+                <ul class="home__menu__top__list">
+                    <li class="home__menu__top__list__item"><a class="btn__menu" href="#">Home</a>
+                    <li class="home__menu__top__list__item"><a class="btn__menu" href="about.html">About</a>
+                    <li class="home__menu__top__list__item"><a class="btn__menu" href="blog.html">Blog</a>
+                    <li class="home__menu__top__list__item"><a class="btn__menu" href="login.html">Login</a>
+                </ul>
+        </div>
+
+        <div class="home__slider">
+            <div class="home__slides">
+                <div class="home__slide" id="slide-1">
+                    <img src="/img/slider1.jpg" alt="Img1">
+                </div>
+                <div class="home__slide" id="slide-2">
+                    <img src="/img/slider2.jpg" alt="Img2">
+                </div>
+                <div class="home__slide" id="slide-3">
+                    <img src="/img/slider3.jpg" alt="Img3">
+                </div>
+            </div>
+            <button class="home__slider__btn-prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="home__slider__btn-next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+
+        <div class="home__cont__cont">
+
+            <div class="caja1">
+            </div>
+            <div class="caja2">
+            </div>
+            <div class="caja3">
+            </div>
+
+        </div>
+
         <div class="footer"></div>
     </div>
+    <script src="/js/script.js"></script>
 </body>
+
 </html>
