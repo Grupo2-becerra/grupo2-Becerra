@@ -21,6 +21,14 @@
 
 /* footer */
 
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    background-color: rgb(150, 224, 224);
+    align-items: center;
+    text-align: center;
+}
 
 
 /* about */
