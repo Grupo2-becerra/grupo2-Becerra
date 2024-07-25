@@ -32,7 +32,63 @@
 
 
 /* about */
+.container__about{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr 1fr;
+}
+.about__header{
+    background-color: aqua;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.about__main{
+    background-color: rgb(177, 138, 31);
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
 
+}
+.main__izq{
+    background-color: red;
+    grid-row: span 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding-left: 70px;
+
+    
+}
+.izq__caja1{
+    background-color: blue;
+    width: 80%;
+    height: 80%;
+}
+.izq__caja2{
+    background-color: rgb(80, 151, 21);
+    width: 80%;
+    height: 80%;
+}
+.izq__caja3{
+    background-color: rgb(137, 212, 15);
+    width: 80%;
+    height: 80%;
+}
+.izq__caja4{
+    background-color: rgb(211, 15, 185);
+    width: 80%;
+    height: 80%;
+}
+.about__footer{
+    background-color: rgb(224, 16, 131);
+}
 /* blog */
 
 /* login */
